@@ -1,4 +1,4 @@
-package com.projectmannage.ProjetMannage;
+package om.projectmannage.ProjetMannage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,4 +10,9 @@ public class ProjetMannageApplication {
 		SpringApplication.run(ProjetMannageApplication.class, args);
 	}
 
+	public enum Projectstatus{
+		Peding,
+		 InProgress,
+		 Completed,
+	}
 }
